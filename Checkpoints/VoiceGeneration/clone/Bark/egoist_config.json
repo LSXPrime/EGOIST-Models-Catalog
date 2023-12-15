@@ -1,0 +1,10 @@
+{
+    "name": "Bark",
+    "backend": "tts",
+    "type": "voice_generation",
+    "task": "clone",
+    "weight": "fp32",
+    "checkpoint": "pytorch_model.bin",
+    "download_model": "*",
+    "download_repo": "https://huggingface.co/suno/bark/tree/main"
+}
