@@ -1,0 +1,100 @@
+{
+  "Name": "Mistral-7B-Instruct-v0.1",
+  "Backend": "llama.cpp",
+  "Type": "Text",
+  "Task": "Chat",
+  "Architecture": "Mistral",
+  "UpdateDate": "2023-9-27",
+  "Description": "Mistral-7B-v0.1-Instruct LLM, a fine-tuned version of Mistral, outperforms Llama 2 13B across benchmarks, featuring a transformer architecture with unique attention mechanisms.",
+  "Weights": [
+    {
+      "Extension": "GGUF",
+      "Weight": "Q2_K",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q2_K.gguf",
+      "Size": "3.08 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_L",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q3_K_L.gguf",
+      "Size": "3.82 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_M",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q3_K_M.gguf",
+      "Size": "3.52 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_S",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q3_K_S.gguf",
+      "Size": "3.16 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_0",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_0.gguf",
+      "Size": "4.11 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_K_M",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf",
+      "Size": "4.37 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_K_S",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_S.gguf",
+      "Size": "4.14 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_0",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q5_0.gguf",
+      "Size": "5 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_K_M",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q5_K_M.gguf",
+      "Size": "5.13 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_K_S",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q5_K_S.gguf",
+      "Size": "5 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q6_K",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q6_K.gguf",
+      "Size": "5.94 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q8_0",
+      "Link": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q8_0.gguf",
+      "Size": "7.7 GB"
+    }
+  ],
+  "DownloadRepo": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF",
+  "TextConfig": {
+    "PromptPrefix": "[INST]",
+    "PromptSuffix": "[/INST]",
+    "SystemPrefix": "",
+    "SystemSuffix": "</s>",
+    "SystemPrompt": "You are a helpful AI assistant.",
+    "BlackList": [
+      "GPT4 User: ",
+      "[INST]",
+      "|end_of_turn|",
+      "<|end_of_turn|>",
+      "<||end_of_turn|>",
+      "<|start_of_turn|>"
+    ]
+  },
+  "Downloaded": []
+}

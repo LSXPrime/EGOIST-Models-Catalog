@@ -1,0 +1,99 @@
+{
+  "Name": "OpenChat-3.5-7B-16K",
+  "Backend": "llama.cpp",
+  "Type": "Text",
+  "Task": "Chat",
+  "Architecture": "Mistral",
+  "UpdateDate": "2023-11-11",
+  "Description": "OpenChat employs C-RLFT to train language models without preference labels, achieving ChatGPT 7B-level performance, striving for a commercially viable large language model in open source.",
+  "Weights": [
+    {
+      "Extension": "GGUF",
+      "Weight": "Q2_K",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q2_K.gguf",
+      "Size": "2.83 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_L",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q3_K_L.gguf",
+      "Size": "3.6 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_M",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q3_K_M.gguf",
+      "Size": "3.3 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_S",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q3_K_S.gguf",
+      "Size": "2.95 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_0",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q4_0.gguf",
+      "Size": "3.83 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_K_M",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q4_K_M.gguf",
+      "Size": "4.08 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_K_S",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q4_K_S.gguf",
+      "Size": "3.86 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_0",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q5_0.gguf",
+      "Size": "4.65 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_K_M",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q5_K_M.gguf",
+      "Size": "4.78 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_K_S",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q5_K_S.gguf",
+      "Size": "4.65 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q6_K",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q6_K.gguf",
+      "Size": "5.53 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q8_0",
+      "Link": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF/resolve/main/openchat_3.5-16k.Q8_0.gguf",
+      "Size": "7.16 GB"
+    }
+  ],
+  "DownloadRepo": "https://huggingface.co/TheBloke/openchat_3.5-16k-GGUF",
+  "TextConfig": {
+    "PromptPrefix": "GPT4 User: ",
+    "PromptSuffix": "<|end_of_turn|>GPT4 Assistant:",
+    "SystemPrefix": "",
+    "SystemSuffix": "<|end_of_turn|>",
+    "SystemPrompt": "You are a helpful AI assistant.",
+    "BlackList": [
+      "GPT4 User: ",
+      "User:",
+      "|end_of_turn|",
+      "<|end_of_turn|>",
+      "<||end_of_turn|>",
+      "<|start_of_turn|>"
+    ]
+  }
+}

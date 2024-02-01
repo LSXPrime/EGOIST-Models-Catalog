@@ -1,0 +1,26 @@
+{
+  "Name": "XTTS-v2",
+  "Backend": "tts",
+  "Type": "Voice",
+  "Task": "Generate",
+  "Architecture": "XTTS",
+  "UpdateDate": "2023-10-05",
+  "Description": "(Automatically downloading the model data isn't implemented yet.) XTTS, a voice generation model, clones voices across 17 languages from a brief 6-second audio clip, bypassing the need for extensive training data, offering emotion/style transfer and multi-lingual speech generation at a 24kHz sampling rate.",
+  "Weights": [
+    {
+      "Extension": "pth",
+      "Weight": "model",
+      "Link": "https://huggingface.co/coqui/XTTS-v2/resolve/main/model.pth",
+      "Size": "1.87 GB"
+    }
+  ],
+  "DownloadRepo": "https://huggingface.co/coqui/XTTS-v2",
+  "TextConfig": {
+    "PromptPrefix": "",
+    "PromptSuffix": "",
+    "SystemPrefix": "",
+    "SystemSuffix": "",
+    "SystemPrompt": "",
+    "BlackList": []
+  }
+}

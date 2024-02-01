@@ -1,0 +1,96 @@
+{
+  "Name": "CodeLlama-7B-Instruct",
+  "Backend": "llama.cpp",
+  "Type": "Text",
+  "Task": "Coding",
+  "Architecture": "LLaMa",
+  "UpdateDate": "2023-09-27",
+  "Description": "Code Llama is designed for general code synthesis and understanding.",
+  "Weights": [
+    {
+      "Extension": "GGUF",
+      "Weight": "Q2_K",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q2_K.gguf",
+      "Size": "2.83 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_L",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q3_K_L.gguf",
+      "Size": "3.6 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_M",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q3_K_M.gguf",
+      "Size": "3.3 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_S",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q3_K_S.gguf",
+      "Size": "2.95 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_0",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q4_0.gguf",
+      "Size": "3.83 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_K_M",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q4_K_M.gguf",
+      "Size": "4.08 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_K_S",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q4_K_S.gguf",
+      "Size": "3.86 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_0",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q5_0.gguf",
+      "Size": "4.65 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_K_M",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q5_K_M.gguf",
+      "Size": "4.78 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_K_S",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q5_K_S.gguf",
+      "Size": "4.65 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q6_K",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q6_K.gguf",
+      "Size": "5.53 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q8_0",
+      "Link": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q8_0.gguf",
+      "Size": "7.16 GB"
+    }
+  ],
+  "DownloadRepo": "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF",
+  "TextConfig": {
+    "PromptPrefix": "[INST]",
+    "PromptSuffix": "[/INST]",
+    "SystemPrefix": "[INST]<<SYS>>\n",
+    "SystemSuffix": "\n<</SYS>>\n\n[/INST]",
+    "SystemPrompt": "You are a helpful coding AI assistant.",
+    "BlackList": [
+      "[INST]",
+      "[/INST]",
+      "User:"
+    ]
+  }
+}

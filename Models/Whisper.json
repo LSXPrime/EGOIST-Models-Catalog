@@ -1,0 +1,152 @@
+{
+  "Name": "Whisper",
+  "Backend": "whisper.cpp",
+  "Type": "Voice",
+  "Task": "Transcribe",
+  "Architecture": "Whisper",
+  "UpdateDate": "2023-12-10",
+  "Description": "Whisper, a pre-trained ASR and speech transcription model, trained on 680k hours of labeled data, excels in generalizing across diverse datasets and domains, showcasing robust performance without requiring fine-tuning.",
+  "Weights": [
+    {
+      "Extension": "BIN",
+      "Weight": "base",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin",
+      "Size": "148 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "base-q5_1",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base-q5_1.bin",
+      "Size": "59.7 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "base-en-q5_1",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en-q5_1.bin",
+      "Size": "59.7 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "base-en",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin",
+      "Size": "148 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "large-v1",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v1.bin",
+      "Size": "3.09 GB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "large-v2-q5_0",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2-q5_0.bin",
+      "Size": "1.08 GB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "large-v2",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2.bin",
+      "Size": "3.09 GB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "large-v3-q5_0",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-q5_0.bin",
+      "Size": "1.08 GB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "large-v3",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin",
+      "Size": "3.1 GB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "medium-q5_0",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium-q5_0.bin",
+      "Size": "539 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "medium",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin",
+      "Size": "1.53 GB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "medium-en-q5_0",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en-q5_0.bin",
+      "Size": "539 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "medium-en",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en.bin",
+      "Size": "1.53 GB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "small-q5_1",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small-q5_1.bin",
+      "Size": "190 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "small",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin",
+      "Size": "488 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "small-en-q5_1",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.en-q5_1.bin",
+      "Size": "190 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "small-en",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.en.bin",
+      "Size": "488 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "tiny-q5_1",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny-q5_1.bin",
+      "Size": "32.2 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "tiny",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.bin",
+      "Size": "77.7 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "tiny-en-q5_1",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q5_1.bin",
+      "Size": "32.2 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "tiny-en-q8_0",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-q8_0.bin",
+      "Size": "43.6 MB"
+    },
+    {
+      "Extension": "BIN",
+      "Weight": "tiny-en",
+      "Link": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en.bin",
+      "Size": "77.7 MB"
+    }
+  ],
+  "DownloadRepo": "https://huggingface.co/ggerganov/whisper.cpp",
+  "TextConfig": {
+    "PromptPrefix": "",
+    "PromptSuffix": "",
+    "SystemPrefix": "",
+    "SystemSuffix": "",
+    "SystemPrompt": "",
+    "BlackList": []
+  }
+}

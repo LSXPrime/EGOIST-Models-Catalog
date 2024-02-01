@@ -1,0 +1,100 @@
+{
+  "Name": "Zephyr-7B-Beta",
+  "Backend": "llama.cpp",
+  "Type": "Text",
+  "Task": "Chat",
+  "Architecture": "Mistral",
+  "UpdateDate": "2023-10-27",
+  "Description": "Zephyr-7B-β, the second model in the series, is a fine-tuned version of Mistral-7B-v0.1. Trained on mixed datasets using Direct Preference Optimization, it enhances performance but may generate problematic text in certain prompts.",
+  "Weights": [
+    {
+      "Extension": "GGUF",
+      "Weight": "Q2_K",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q2_K.gguf",
+      "Size": "3.08 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_L",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q3_K_L.gguf",
+      "Size": "3.82 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_M",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q3_K_M.gguf",
+      "Size": "3.52 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q3_K_S",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q3_K_S.gguf",
+      "Size": "3.16 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_0",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q4_0.gguf",
+      "Size": "4.11 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_K_M",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q4_K_M.gguf",
+      "Size": "4.37 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q4_K_S",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q4_K_S.gguf",
+      "Size": "4.14 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_0",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q5_0.gguf",
+      "Size": "5 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_K_M",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q5_K_M.gguf",
+      "Size": "5.13 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q5_K_S",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q5_K_S.gguf",
+      "Size": "5 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q6_K",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q6_K.gguf",
+      "Size": "5.94 GB"
+    },
+    {
+      "Extension": "GGUF",
+      "Weight": "Q8_0",
+      "Link": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF/resolve/main/zephyr-7b-beta.Q8_0.gguf",
+      "Size": "7.7 GB"
+    }
+  ],
+  "DownloadRepo": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF",
+  "TextConfig": {
+    "PromptPrefix": "<|user|>",
+    "PromptSuffix": "</s> <|assistant|>",
+    "SystemPrefix": "<|system|>",
+    "SystemSuffix": "</s>",
+    "SystemPrompt": "You are a helpful AI assistant.",
+    "BlackList": [
+      "GPT4 User: ",
+      "User:",
+      "|end_of_turn|",
+      "<|end_of_turn|>",
+      "<||end_of_turn|>",
+      "<|start_of_turn|>"
+    ]
+  },
+  "Downloaded": []
+}
